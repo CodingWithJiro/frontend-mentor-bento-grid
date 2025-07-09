@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bento Grid</title>
+    <meta name="author" content="Elmar Chavez" />
+    <meta name="description"
+        content="A responsive bento grid information boxes for an AI advertisement built with HTML and CSS. Created as part of a Frontend Mentor challenge during the author's fourth month learning frontend web development." />
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/favicon-32x32.png" />
+    <meta property="og:site_name" content="CodingWithJiro" />
+    <meta property="og:title" content="Bento Grid" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description"
+        content="A responsive bento grid layout for an AI ad, built with HTML and CSS. Part of a Frontend Mentor challenge during the author's fourth month learning frontend development." />
+
+    <meta property="og:url" content="ADD_LINK_HERE" />
+
+    <meta property="og:image" content="ADD_LINK_HEREassets/img/site-preview-meta_1200x630.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Bento Grid" />
+    <meta name="twitter:description"
+        content="Responsive bento grid for an AI ad built with #HTML and #CSS. A #FrontendMentor challenge created in month 4 of learning #WebDev" />
+
+    <meta name="twitter:image" content="ADD_LINK_HEREassets/img/site-preview-meta_1200x630.png" />
+
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#f5f5f5" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#1a1313" media="(prefers-color-scheme: dark)" />
+    <meta name="robots" content="index, follow" />
+
+    <link rel="canonical" href="ADD_LINK_HERE">
+
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="./js/index.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <a class="header__skip sr-only" href="#main" aria-label="Skip to main content">
+            Go directly to the main content of the page.
+        </a>
+
+        <div class="theme">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                class="theme__icon theme__icon--light">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                    <g clip-path="url(#a)" fill="currentColor">
+                        <path
+                            d="M12 0a1 1 0 0 1 1 1v4a1 1 0 1 1-2 0V1a1 1 0 0 1 1-1ZM4.929 3.515a1 1 0 0 0-1.414 1.414l2.828 2.828a1 1 0 0 0 1.414-1.414L4.93 3.515ZM1 11a1 1 0 1 0 0 2h4a1 1 0 1 0 0-2H1ZM18 12a1 1 0 0 1 1-1h4a1 1 0 1 1 0 2h-4a1 1 0 0 1-1-1ZM17.657 16.243a1 1 0 0 0-1.414 1.414l2.828 2.828a1 1 0 1 0 1.414-1.414l-2.828-2.828ZM7.757 17.657a1 1 0 1 0-1.414-1.414L3.515 19.07a1 1 0 1 0 1.414 1.414l2.828-2.828ZM20.485 4.929a1 1 0 0 0-1.414-1.414l-2.828 2.828a1 1 0 1 0 1.414 1.414l2.828-2.828ZM13 19a1 1 0 1 0-2 0v4a1 1 0 1 0 2 0v-4ZM12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10Z">
+                        </path>
+                    </g>
+                    <defs>
+                        <clipPath id="a">
+                            <path fill="#ffffff" d="M0 0h24v24H0z"></path>
+                        </clipPath>
+                    </defs>
+                </g>
+            </svg>
+
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                class="theme__icon theme__icon--dark hidden">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                    <path
+                        d="M9.272 2.406a1 1 0 0 0-1.23-1.355C6.59 1.535 5.432 2.487 4.37 3.55a11.399 11.399 0 0 0 0 16.182c4.518 4.519 11.51 4.261 15.976-.205 1.062-1.062 2.014-2.22 2.498-3.673A1 1 0 0 0 21.55 14.6c-3.59 1.322-7.675.734-10.434-2.025-2.765-2.766-3.328-6.83-1.844-10.168Z"
+                        fill="currentColor"></path>
+                </g>
+            </svg>
+
+            <button type="button" aria-label="Toggle Light/Dark Mode" class="theme__button"></button>
+        </div>
+    </header>
+
+    <main class="main" id="main">
+        <section class="bento">
+            <div class="bento__grid">
+                <header class="bento__header">
+                    <h1 class="bento__title">
+                        Social Media <span class="bento__span">10x</span> <span class="italic">Faster</span> with AI
+                    </h1>
+
+                    <img src="./assets/img/illustration-five-stars_384x64.webp" alt="" aria-hidden="true"
+                        class="bento__stars" width="384" height="64">
+
+                    <p class="bento__header-tag">
+                        Over 4,000 5-star reviews
+                    </p>
+                </header>
+
+                <section class="card card--platforms">
+                    <img src="./assets/img/illustration-multiple-platforms_633x134.webp" alt="" aria-hidden="true"
+                        class="card__image card__image--platforms" width="633" height="134">
+
+                    <h2 class="card__title card__title--platforms">
+                        Manage multiple accounts and platforms
+                    </h2>
+                </section>
+
+                <section class="card card--consistent">
+                    <h2 class="card__title card__title--consistent">
+                        Maintain a consistent posting schedule.
+                    </h2>
+
+                    <img src="./assets/img/illustration-consistent-schedule_416x314.webp" alt="" aria-hidden="true"
+                        class="card__image card__image--consistent" width="416" height="314">
+                </section>
+
+                <section class="card card--schedule">
+                    <h2 class="card__title card__title--schedule">
+                        Schedule to social media.
+                    </h2>
+
+                    <img src="./assets/img/illustration-schedule-posts_715x638.webp" alt="" aria-hidden="true"
+                        class="card__image card__image--schedule" width="715" height="638">
+
+                    <p class="card__description">
+                        Optimize post timings to publish content at the perfect time for your audience.
+                    </p>
+                </section>
+
+                <section class="card card--grow">
+                    <img src="./assets/img/illustration-grow-followers_456x402.webp" alt="" aria-hidden="true"
+                        class="card__image card__image--grow" width="456" height="402">
+
+                    <h2 class="card__title card__title--grow">
+                        Grow followers with non-stop content.
+                    </h2>
+                </section>
+
+                <section class="card card--faster">
+                    <h2 class="card__title card__title--faster">
+                        <span class="card__gt">&gt;</span>56% <span class="card__span-faster">faster audience
+                            growth</span>
+                    </h2>
+
+                    <img src="./assets/img/illustration-audience-growth_358x134.webp" alt="" aria-hidden="true"
+                        class="card__image card__image--faster" width="358" height="134">
+                </section>
+
+                <section class="card card--create">
+                    <h2 class="card__title card__title--create">
+                        Create and schedule content <span class="card__span-create italic">quicker.</span>
+                    </h2>
+
+                    <img src="./assets/img/illustration-create-post_382x182.webp" alt="" aria-hidden="true"
+                        class="card__image card__image--create" width="382" height="182">
+                </section>
+
+                <section class="card card--content">
+                    <h2 class="card__title card__title--content">
+                        Write your content using AI.
+                    </h2>
+
+                    <img src="./assets/img/illustration-ai-content_440x446.webp" alt="" aria-hidden="true"
+                        class="card__image card__image--content" width="440" height="446">
+                </section>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
