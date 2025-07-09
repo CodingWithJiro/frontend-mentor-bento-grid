@@ -17,6 +17,7 @@
 ![Dark Mode](https://img.shields.io/badge/Dark--Mode-Available-111?style=for-the-badge&logo=halfbrickstudios&logoColor=white)
 [![Google Lighthouse](https://img.shields.io/badge/Lighthouse-Audit-00B0FF?style=for-the-badge&logo=lighthouse&logoColor=white)](./assets/downloads/lighthouse-performance-report.pdf)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7ea21860-5ca4-4a6b-aad3-d544f9288939/deploy-status)](https://bento-grid-fm-jiro.netlify.app/)
 ![Status](https://img.shields.io/badge/status-complete-brightgreen)
 ![Learning Path](https://img.shields.io/badge/learning%20path-month%204-blue)
 ![Views](https://visitor-badge.laobi.icu/badge?page_id=CodingWithJiro.frontend-mentor-bento-grid&left_text=repo%20views)
@@ -95,7 +96,7 @@ The theme toggle is powered by JavaScript and persists user preferences using `l
 
 ## 🌐 Live Demo
 
-Or you can check out the 👉 [live website here](LINK)
+Or you can check out the 👉 [live website here](https://bento-grid-fm-jiro.netlify.app/)
 
 ---
 
@@ -112,10 +113,3 @@ Created by **Elmar Chavez**
 🗓️ Month/Year: **July 2025**
 
 📚 Journey: **4<sup>th</sup>** month of learning _frontend web development_.
-
-<!--
-
-FRONTEND MENTOR TAGS:
-html css vscode git github netlify 4th-month frontend-mentor project perfectpixel lighthouse theme-toggle
-
--->
