@@ -1,4 +1,4 @@
-# 💻 Bento Grid
+# Bento Grid
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -22,7 +22,7 @@
 ![Learning Path](https://img.shields.io/badge/learning%20path-month%204-blue)
 ![Views](https://visitor-badge.laobi.icu/badge?page_id=CodingWithJiro.frontend-mentor-bento-grid&left_text=repo%20views)
 
-## ℹ️ A Responsive Bento Grid Landing Page for an AI Company
+## A Responsive Bento Grid Landing Page for an AI Company
 
 | _Mobile Preview (375x812)_                                   | _Desktop Preview (1440x960)_                                    |
 | ------------------------------------------------------------ | --------------------------------------------------------------- |
@@ -31,11 +31,11 @@
 
 This project is a fully responsive **Bento Grid landing page** for a fictional AI company. The layout showcases different platform features using uniquely styled bento-style cards with semantic HTML and accessible design.
 
-Created as part of the building challenges from [Frontend Mentor](https://www.frontendmentor.io/).
+Created as part of the building challenges from **[Frontend Mentor](https://www.frontendmentor.io/)**.
 
 ---
 
-## 🔍 Overview
+## Overview
 
 The project features a modern layout using CSS Grid to form a bento-style visual structure, with each section styled as a unique card. It supports full responsiveness from mobile to desktop using mobile-first design and fluid spacing.
 
@@ -43,7 +43,7 @@ The theme toggle is powered by JavaScript and persists user preferences using `l
 
 ---
 
-## ✨ Features
+## Features
 
 - Bento Grid layout using `grid-template-areas`
 - Light and Dark Mode with theme toggle
@@ -57,7 +57,7 @@ The theme toggle is powered by JavaScript and persists user preferences using `l
 
 ---
 
-## 🧠 What I Learned
+## What I Learned
 
 - How to build a **Bento Grid layout** using `grid-template-areas` and media queries
 - Advanced use of **CSS custom properties** for theming and layout control
@@ -69,7 +69,7 @@ The theme toggle is powered by JavaScript and persists user preferences using `l
 
 ---
 
-## 🛠️ Tech Used
+## Tech Used
 
 - HTML5
 - CSS3
@@ -80,36 +80,36 @@ The theme toggle is powered by JavaScript and persists user preferences using `l
 
 ---
 
-## 🎨 Design Reference & Tools
+## Design Reference & Tools
 
 - JPG design image
 - PerfectPixel
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone the repository
 2. Open `index.html` in your browser
 
 ---
 
-## 🌐 Live Demo
+## Live Demo
 
-Or you can check out the 👉 [live website here](https://bento-grid-fm-jiro.netlify.app/)
-
----
-
-## 📊 Performance Report
-
-A **Google Lighthouse** audit was conducted on the final version of this project. You can view the full report [here](./assets/downloads/lighthouse-performance-report.pdf).
+Or you can check out the **[live website here](https://bento-grid-fm-jiro.netlify.app/)**
 
 ---
 
-## 🧑‍💻 Author
+## Performance Report
+
+A **Google Lighthouse** audit was conducted on the final version of this project. You can view the **[full report here](./assets/downloads/lighthouse-performance-report.pdf)**.
+
+---
+
+## Author
 
 Created by **Elmar Chavez**
 
-🗓️ Month/Year: **July 2025**
+Month/Year: **July 2025**
 
-📚 Journey: **4<sup>th</sup>** month of learning _frontend web development_.
+Journey: **4<sup>th</sup>** month of learning _frontend web development_.
